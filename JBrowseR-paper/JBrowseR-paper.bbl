@@ -1,0 +1,15 @@
+\begin{thebibliography}{}
+
+\bibitem[Pepe(2003)Pepe]{pepe2003statistical}
+Pepe, M.~S. (2003).
+\newblock {\em The statistical evaluation of medical tests for classification
+  and prediction\/}.
+\newblock Oxford University Press.
+
+\bibitem[Zou and Hastie(2005)Zou and Hastie]{zou2005regularization}
+Zou, H. and Hastie, T. (2005).
+\newblock Regularization and variable selection via the elastic net.
+\newblock {\em Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)\/}, {\bf 67}(2), 301--320.
+
+\end{thebibliography}

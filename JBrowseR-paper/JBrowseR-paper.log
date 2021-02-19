@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.18)  18 FEB 2021 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.18)  19 FEB 2021 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -476,6 +476,8 @@ LaTeX Font Info:    Trying to load font information for LY1+pcr on input line 9
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/ly1/ly1pcr.fd
 File: ly1pcr.fd 2001/02/01 font definitions for LY1/pcr using Berry names.
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 <JBrowseR-paper_files/figure-latex/figure-1.pdf, id=2, 252.945pt x 325.215pt>
 File: JBrowseR-paper_files/figure-latex/figure-1.pdf Graphic file (type pdf)
 <use JBrowseR-paper_files/figure-latex/figure-1.pdf>
@@ -506,7 +508,7 @@ tex.map}
 
  <./OUP_First_SBk_Bot_8401-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `LY1/phv/m/it' in size <8> not available
-(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 233.
+(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 241.
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
 [][] 
@@ -514,10 +516,10 @@ Overfull \hbox (252.0pt too wide) has occurred while \output is active
 
 [2 <./JBrowseR-paper_files/figure-latex/figure-1.pdf>] (./JBrowseR-paper.bbl)
 - LAST -
-Extra skip:4.608pt
-Left:258.0pt/1.248pt
-Right:253.0pt/1.64pt
-Output:258.0pt
+Extra skip:26.096pt
+Left:235.0pt/1.736pt
+Right:209.0pt/1.64pt
+Output:235.5pt
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
 [][] 
@@ -539,7 +541,7 @@ Here is how much of TeX's memory you used:
  20805 multiletter control sequences out of 15000+600000
  442241 words of font info for 91 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
- 84i,10n,88p,275b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,11n,88p,275b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/enc/dvips/ly1/texnan
 si.enc}</Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmmi8.pfb></Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/ty
@@ -557,7 +559,7 @@ X/texmf-dist/fonts/type1/urw/helvetic/uhvro8ac.pfb></Users/elliothershberg/Libr
 ary/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/elliothershberg
 /Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/elliothers
 hberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on JBrowseR-paper.pdf (3 pages, 677582 bytes).
+Output written on JBrowseR-paper.pdf (3 pages, 678547 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
