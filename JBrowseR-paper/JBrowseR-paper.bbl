@@ -1,15 +1,44 @@
 \begin{thebibliography}{}
 
-\bibitem[Pepe(2003)Pepe]{pepe2003statistical}
-Pepe, M.~S. (2003).
-\newblock {\em The statistical evaluation of medical tests for classification
-  and prediction\/}.
-\newblock Oxford University Press.
+\bibitem[Birney {\em et~al.}(2004)Birney, Andrews, Bevan, Caccamo, Chen,
+  Clarke, Coates, Cuff, Curwen, Cutts, {\em et~al.}]{birney2004overview}
+Birney, E., Andrews, T.~D., Bevan, P., Caccamo, M., Chen, Y., Clarke, L.,
+  Coates, G., Cuff, J., Curwen, V., Cutts, T., {\em et~al.} (2004).
+\newblock An overview of ensembl.
+\newblock {\em Genome research\/}, {\bf 14}(5), 925--928.
 
-\bibitem[Zou and Hastie(2005)Zou and Hastie]{zou2005regularization}
-Zou, H. and Hastie, T. (2005).
-\newblock Regularization and variable selection via the elastic net.
-\newblock {\em Journal of the Royal Statistical Society: Series B (Statistical
-  Methodology)\/}, {\bf 67}(2), 301--320.
+\bibitem[Buels {\em et~al.}(2016)Buels, Yao, Diesh, Hayes, Munoz-Torres, Helt,
+  Goodstein, Elsik, Lewis, Stein, {\em et~al.}]{buels2016jbrowse}
+Buels, R., Yao, E., Diesh, C.~M., Hayes, R.~D., Munoz-Torres, M., Helt, G.,
+  Goodstein, D.~M., Elsik, C.~G., Lewis, S.~E., Stein, L., {\em et~al.} (2016).
+\newblock Jbrowse: a dynamic web platform for genome visualization and
+  analysis.
+\newblock {\em Genome biology\/}, {\bf 17}(1), 1--12.
+
+\bibitem[Harris {\em et~al.}(2010)Harris, Antoshechkin, Bieri, Blasiar, Chan,
+  Chen, De~La~Cruz, Davis, Duesbury, Fang, {\em et~al.}]{harris2010wormbase}
+Harris, T.~W., Antoshechkin, I., Bieri, T., Blasiar, D., Chan, J., Chen, W.~J.,
+  De~La~Cruz, N., Davis, P., Duesbury, M., Fang, R., {\em et~al.} (2010).
+\newblock Wormbase: a comprehensive resource for nematode research.
+\newblock {\em Nucleic acids research\/}, {\bf 38}(suppl\_1), D463--D467.
+
+\bibitem[Huber {\em et~al.}(2015)Huber, Carey, Gentleman, Anders, Carlson,
+  Carvalho, Bravo, Davis, Gatto, Girke, {\em et~al.}]{huber2015orchestrating}
+Huber, W., Carey, V.~J., Gentleman, R., Anders, S., Carlson, M., Carvalho,
+  B.~S., Bravo, H.~C., Davis, S., Gatto, L., Girke, T., {\em et~al.} (2015).
+\newblock Orchestrating high-throughput genomic analysis with bioconductor.
+\newblock {\em Nature methods\/}, {\bf 12}(2), 115.
+
+\bibitem[Kent {\em et~al.}(2002)Kent, Sugnet, Furey, Roskin, Pringle, Zahler,
+  and Haussler]{kent2002human}
+Kent, W.~J., Sugnet, C.~W., Furey, T.~S., Roskin, K.~M., Pringle, T.~H.,
+  Zahler, A.~M., and Haussler, D. (2002).
+\newblock The human genome browser at ucsc.
+\newblock {\em Genome research\/}, {\bf 12}(6), 996--1006.
+
+\bibitem[Packer(2007)Packer]{packer2007clickable}
+Packer, A. (2007).
+\newblock The clickable genome.
+\newblock {\em Nature Reviews Genetics\/}, {\bf 8}(1), S17--S17.
 
 \end{thebibliography}

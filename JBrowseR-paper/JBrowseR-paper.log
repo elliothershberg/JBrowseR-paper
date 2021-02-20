@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.18)  19 FEB 2021 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.18)  19 FEB 2021 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -471,30 +471,25 @@ Underfull \hbox (badness 10000) detected at line 70
 []
  []
 
-LaTeX Font Info:    Trying to load font information for LY1+pcr on input line 9
-3.
+
+Underfull \hbox (badness 1253) in paragraph at lines 82--92
+[]\LY1/ptm/m/n/8 Since their original development during the advent of genome
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 93--103
+[]\LY1/ptm/m/n/8 More recently, JBrowse has been rewritten using newer web
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Trying to load font information for LY1+pcr on input line 1
+17.
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/ly1/ly1pcr.fd
 File: ly1pcr.fd 2001/02/01 font definitions for LY1/pcr using Berry names.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<JBrowseR-paper_files/figure-latex/figure-1.pdf, id=2, 252.945pt x 325.215pt>
-File: JBrowseR-paper_files/figure-latex/figure-1.pdf Graphic file (type pdf)
-<use JBrowseR-paper_files/figure-latex/figure-1.pdf>
-Package pdftex.def Info: JBrowseR-paper_files/figure-latex/figure-1.pdf  used o
-n input line 125.
-(pdftex.def)             Requested size: 252.94438pt x 325.2142pt.
-
-Overfull \hbox (18.94438pt too wide) in paragraph at lines 125--126
- [][] 
- []
-
-LaTeX Font Info:    Trying to load font information for LY1+phb on input line 1
-26.
-LaTeX Font Info:    No file LY1phb.fd. on input line 126.
-
-LaTeX Font Warning: Font shape `LY1/phb/m/n' undefined
-(Font)              using `LY1/ptm/m/n' instead on input line 126.
 
 
 Overfull \hbox (1.12001pt too wide) has occurred while \output is active
@@ -507,8 +502,29 @@ tex.map}
 
 
  <./OUP_First_SBk_Bot_8401-eps-converted-to.pdf>]
+<JBrowseR-paper_files/figure-latex/figure-1.pdf, id=17, 252.945pt x 325.215pt>
+File: JBrowseR-paper_files/figure-latex/figure-1.pdf Graphic file (type pdf)
+<use JBrowseR-paper_files/figure-latex/figure-1.pdf>
+Package pdftex.def Info: JBrowseR-paper_files/figure-latex/figure-1.pdf  used o
+n input line 149.
+(pdftex.def)             Requested size: 252.94438pt x 325.2142pt.
+
+Overfull \hbox (18.94438pt too wide) in paragraph at lines 149--150
+ [][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for LY1+phb on input line 1
+50.
+LaTeX Font Info:    No file LY1phb.fd. on input line 150.
+
+LaTeX Font Warning: Font shape `LY1/phb/m/n' undefined
+(Font)              using `LY1/ptm/m/n' instead on input line 150.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `LY1/phv/m/it' in size <8> not available
-(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 241.
+(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 230.
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
 [][] 
@@ -516,10 +532,10 @@ Overfull \hbox (252.0pt too wide) has occurred while \output is active
 
 [2 <./JBrowseR-paper_files/figure-latex/figure-1.pdf>] (./JBrowseR-paper.bbl)
 - LAST -
-Extra skip:26.096pt
-Left:235.0pt/1.736pt
-Right:209.0pt/1.64pt
-Output:235.5pt
+Extra skip:1.14798pt
+Left:461.0pt/1.736pt
+Right:461.58801pt/0.0pt
+Output:461.794pt
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
 [][] 
@@ -535,10 +551,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3954 strings out of 481250
- 53239 string characters out of 5914115
- 339398 words of memory out of 5000000
- 20805 multiletter control sequences out of 15000+600000
+ 3966 strings out of 481250
+ 53533 string characters out of 5914115
+ 343939 words of memory out of 5000000
+ 20817 multiletter control sequences out of 15000+600000
  442241 words of font info for 91 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
  84i,11n,88p,275b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -559,7 +575,7 @@ X/texmf-dist/fonts/type1/urw/helvetic/uhvro8ac.pfb></Users/elliothershberg/Libr
 ary/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/elliothershberg
 /Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/elliothers
 hberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on JBrowseR-paper.pdf (3 pages, 678547 bytes).
+Output written on JBrowseR-paper.pdf (3 pages, 683993 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream

@@ -60,18 +60,39 @@ bibliography: bibliography.bib
 Introduction
 ============
 
-Cite others using bracket notation [@pepe2003statistical]. Can also cite with @zou2005regularization.
+The development of genome browsers is widely considered to be one of the fundamental milestones of the
+genomic revolution [@packer2007clickable].
+Genome browsers provide researchers the ability to visually display and explore genomic annotations and
+data.
+Due to their widespread adoption and use, the linear display of genomic information along reference coordinates
+is one of the most common represenations of biological data in the 21st century.
 
-<!-- naked refs don't work because of the \nolinkurl problems -->
-<!-- Or refer to specific people e.g. -@Yoo03 like so. -->
+Since their original development during the advent of genome sequencing [@kent2002human; @birney2004overview],
+genome browsers have made considerable gains in performance and sophistication.
+One important development has been the implementation of genome browsers in JavaScript, beginning with
+JBrowse [@buels2016jbrowse].
+Leveraging JavaScript makes it possible to move computation that previously took place on a server
+into the client browser.
+Another core advantage of JavaScript based browsers is that they can leverage modern web technologies such
+as Canvas and SVG, providing a more responsive and interactive experience for the user.
 
-Instructions for authors are available [online](http://www.oxfordjournals.org/our_journals/bioinformatics/for_authors/general.html).
+More recently, JBrowse has been rewritten using newer web technologies such as ReactJS and TypeScript to
+create an extensible platform for visualizing and integrating biological data called JBrowse 2.
+The platform can be configured and deployed with custom data and settings.
+This architecture enables research communities to develop and maintain curated sets of resources and data on 
+the web, such as WormBase for the *C. elegans* community [@harris2010wormbase].
+A new product offering of JBrowse 2 is a React component that renders a configurable genome browser,
+enabling researchers to embed custom browsers into existing React applications.
 
-Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
+While the JBrowse 2 React component is powerful and extensible, it can present a steep learning curve
+for bioinformaticians who don't have experience with React development.
+On the other hand, the R programming language and environment is widely used in the bioinformatics community, 
+as evidenced by the size and and usage of efforts such as Bioconductor [@huber2015orchestrating].
+To bridge this gap, we introduce JBrowseR, an R interface the JBrowse 2 genome browser. 
+JBrowseR is an R package with functions for embedding a custom browser instance in a Shiny app, 
+R Markdown document, or the R console.
 
-Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Approach
+Materials and Methods
 ============
 
 Here is how to include math equations in the document (bounded by `$$`):
