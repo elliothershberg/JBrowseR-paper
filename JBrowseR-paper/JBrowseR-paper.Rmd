@@ -60,32 +60,32 @@ bibliography: bibliography.bib
 Introduction
 ============
 
-The development of genome browsers is widely considered to be one of the fundamental milestones of the
+The development of genome browsers has been described as a milestone of
 genomic revolution [@packer2007clickable].
-Genome browsers provide researchers the ability to visually display and explore genomic annotations and
+Genome browsers provide researchers with the ability to visualize and explore genomic annotations and
 data.
 Due to their widespread adoption and use, the linear display of genomic information along reference coordinates
-is one of the most common represenations of biological data in the 21st century.
+is one of the most common representations of biological data in the 21st century.
 
 Since their original development during the advent of genome sequencing [@kent2002human; @birney2004overview],
 genome browsers have made considerable gains in performance and sophistication.
 One important development has been the implementation of genome browsers in JavaScript, beginning with
 JBrowse [@buels2016jbrowse].
-Leveraging JavaScript makes it possible to move computation that previously took place on a server
-into the client browser.
-Another core advantage of JavaScript based browsers is that they can leverage modern web technologies such
-as Canvas and SVG, providing a more responsive and interactive experience for the user.
+Leveraging JavaScript---along with modern web technologies such as Canvas and SVG---makes it possible to move computation that previously took
+place on a server into the client web browser, as well as offering a more responsive and
+interactive experience to the user.
 
-More recently, JBrowse has been rewritten using newer web technologies such as ReactJS and TypeScript to
-create an extensible platform for visualizing and integrating biological data called JBrowse 2.
-The platform can be configured and deployed with custom data and settings.
-This architecture enables research communities to develop and maintain curated sets of resources and data on 
+JBrowse 2 is an extensible platform for visualizing and integrating biological data,
+consisting of a ground-up rewrite of JBrowse using ReactJS and TypeScript.
+The platform can be configured and deployed with custom data and settings,
+enabling research communities to develop and maintain curated sets of resources and data on 
 the web, such as WormBase for the *C. elegans* community [@harris2010wormbase].
-A new product offering of JBrowse 2 is a React component that renders a configurable genome browser,
-enabling researchers to embed custom browsers into existing React applications.
 
-While the JBrowse 2 React component is powerful and extensible, it can present a steep learning curve
-for bioinformaticians who don't have experience with React development.
+JBrowse 2 contains many new views and components, to be described in a later paper.
+One core part is a React component that renders a configurable
+linear genome browser, enabling researchers to embed custom browsers into existing React applications.
+While the React framework used by JBrowse 2 is powerful and extensible, its use can
+present an obstacle to bioinformaticians who don't have experience with React development.
 On the other hand, the R programming language and environment is widely used in the bioinformatics community, 
 as evidenced by the size and and usage of efforts such as Bioconductor [@huber2015orchestrating].
 To bridge this gap, we introduce JBrowseR, an R interface the JBrowse 2 genome browser. 
@@ -106,10 +106,11 @@ element in an htmlwidget.
 
 The interface of JBrowseR enables users to generate JBrowse 2 configuration for their
 own data using simple R functions. 
-The configuration values can be composed together to create an arbitrarily complex 
-custom browser.
-The majority of major genomic data types displayed in genome browsers are supported.
-JBrowseR also includes a HTTP server for serving local data that is configured with
+The configuration values can be composed together to create an arbitrarily
+complex custom browser. The majority of genomic data formats
+commonly displayed in genome browsers are supported,
+including (but not limited to) FASTA, BED, GFF3, BAM, CRAM, VCF, Wiggle, and bigWig.
+JBrowseR also includes an HTTP server for serving local data that is configured with
 the necessary settings and features for working with genome browsers such as JBrowse
 and IGV.js [@robinson2011integrative; @robinson2017variant].
 
@@ -121,26 +122,26 @@ Automated tests for the package are implemented using the testthat R package.
 knitr::include_graphics("JBrowseR-paper-fig1.png")
 ```
 
-Results and discussion
+Results and Discussion
 =============
 
-In order to demonstrate the utility of JBrowseR, several Shiny apps were built and included along
+In order to demonstrate the utility of JBrowseR, several Shiny apps were built and are included along
 with the package source code on GitHub. 
 One of the included apps demonstrates adding CRAM, VCF, GFF3, and bigWig data (fig. 1), as well as 
 setting a custom color palette for the browser.
 Another one of the provided demo apps illustrates how JBrowseR can also be configured with a JSON
-file like the other JBrowse 2 products by loading the Sars-CoV-2 reference genome and NCBI annotations
+file (like other JBrowse 2 apps) by loading the Sars-CoV-2 reference genome and NCBI annotations
 from a JBrowse 2 configuration file.
 Finally, we have provided an example deployment of JBrowseR in an app with interactions connected to
 other R shiny UI components at 
 \href{https://elliothershberg.shinyapps.io/sars-cov-2-spike-mutations/}{https://elliothershberg.shinyapps.io/sars-cov-2-spike-mutations/}.
 
 One of the core strengths of JBrowseR is its versatility. 
-It considerably lowers the level of web development expertise required to create a genomics 
-application with a fast and flexible genome browser. 
-However, applications are not the only available target point for the rendering functions.
-JBrowseR can embed a genome browser into R Markdown, which is a flexible documentation format
-that is widely used to write scientific articles.
+It considerably lowers the level of expertise required to
+create a web-facing genome database with a fast and flexible genome annotation browser.
+However, web applications are not the only available target point for the
+rendering functions: JBrowseR can also embed a genome browser into R Markdown, a flexible documentation format
+that is used to write scientific articles (including this one).
 We anticipate that as platforms such as eLife's "reproducible article" [@maciocci2019introducing] mature
 and become more widely adopted, it will be possible for genomics articles to contain interactive
 genome browsers such as JBrowseR displaying their data.
@@ -148,7 +149,7 @@ genome browsers such as JBrowseR displaying their data.
 Availability
 =============
 
-The JBrowseR is freely available for download from CRAN, and the source code is publicly available at
+JBrowseR is freely available for download from CRAN, and the source code is publicly available at
 \href{https://github.com/elliothershberg/JBrowseR/}{https://github.com/elliothershberg/JBrowseR/}. 
 The package reference guide and tutorials can be found at
 \href{https://elliothershberg.github.io/JBrowseR/}{https://elliothershberg.github.io/JBrowseR/}.
@@ -161,7 +162,7 @@ Acknowledgements {.unnumbered}
 Funding {.unnumbered}
 ==============
 
-???
+This work was funded by NIH grants HG004483 and GM080203.
 
 <!-- The following rules should be followed: -->
 
