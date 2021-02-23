@@ -60,7 +60,7 @@ bibliography: bibliography.bib
 Introduction
 ============
 
-The development of genome browsers has been described as a milestone of
+The development of genome browsers has been described as a milestone of the
 genomic revolution [@packer2007clickable].
 Genome browsers provide researchers with the ability to visualize and explore genomic annotations and
 data.
@@ -82,12 +82,13 @@ enabling research communities to develop and maintain curated sets of resources 
 the web, such as WormBase for the *C. elegans* community [@harris2010wormbase].
 
 JBrowse 2 contains many new views and components, to be described in a later paper.
-One core part is a React component that renders a configurable
+However, one core part is a React component that renders a configurable
 linear genome browser, enabling researchers to embed custom browsers into existing React applications.
-While the React framework used by JBrowse 2 is powerful and extensible, its use can
+While the JBrowse 2 React linear genome view component is powerful and extensible, its use can
 present an obstacle to bioinformaticians who don't have experience with React development.
 On the other hand, the R programming language and environment is widely used in the bioinformatics community, 
 as evidenced by the size and and usage of efforts such as Bioconductor [@huber2015orchestrating].
+
 To bridge this gap, we introduce JBrowseR, an R interface the JBrowse 2 genome browser. 
 JBrowseR is an R package with functions for embedding a custom browser instance in a Shiny app, 
 R Markdown document, or the R console.
@@ -96,7 +97,9 @@ Materials and Methods
 ============
 
 JBrowseR is implemented as an R package and distributed on CRAN.
-The package was built according to R best practices, leveraging the devtools package.
+The package was built according to the R best practices encoded in the devtools package,
+ensuring continual use of R CMD Check and maintaining consistent and robust function documentation
+during development.
 The core rendering methods of the library rely on the htmlwidgets framework, which
 can be used to embed JavaScript visualization tools in R Shiny apps, as well as R
 Markdown documents. 
@@ -149,6 +152,8 @@ genome browsers such as JBrowseR displaying their data.
 Availability
 =============
 
+<!-- % Can you please move the repo to the GMOD GitHub org and update the URLs? -->
+
 JBrowseR is freely available for download from CRAN, and the source code is publicly available at
 \href{https://github.com/elliothershberg/JBrowseR/}{https://github.com/elliothershberg/JBrowseR/}. 
 The package reference guide and tutorials can be found at
@@ -157,23 +162,11 @@ The package reference guide and tutorials can be found at
 Acknowledgements {.unnumbered}
 ==============
 
-???
+We thank the reactR authors Kent Russell and Alan Dipert for creating and maintaining a clean interface
+between React and htmlwidgets, which spurred the experiment into whether or not a package such as JBrowseR
+would be feasible.
 
 Funding {.unnumbered}
 ==============
 
 This work was funded by NIH grants HG004483 and GM080203.
-
-<!-- The following rules should be followed: -->
-
-<!-- - The sentence should begin: ‘This work was supported by …’ - -->
-<!-- - The full official funding agency name should be given, i.e. ‘National Institutes of Health’, not ‘NIH’ (full RIN-approved list of UK funding agencies) -->
-<!-- - Grant numbers should be given in brackets as follows: ‘[grant number xxxx]’ -->
-<!-- - Multiple grant numbers should be separated by a comma as follows: ‘[grant numbers xxxx, yyyy]’ -->
-<!-- - Agencies should be separated by a semi-colon (plus ‘and’ before the last funding agency)  -->
-<!-- - Where individuals need to be specified for certain sources of funding the following text should be added after the relevant agency or grant number 'to [author initials]'. -->
-
-<!-- An example is given here: ‘This work was supported by the National Institutes of Health [AA123456 to C.S., BB765432 to M.H.]; and the Alcohol & Education Research Council [hfygr667789].’ -->
-
-<!-- Oxford Journals will deposit all NIH-funded articles in PubMed Central. See Depositing articles in repositories – information for authors for details. Authors must ensure that manuscripts are clearly indicated as NIH-funded using the guidelines above. -->
-
