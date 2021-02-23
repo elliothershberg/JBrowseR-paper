@@ -95,113 +95,84 @@ R Markdown document, or the R console.
 Materials and Methods
 ============
 
-Here is how to include math equations in the document (bounded by `$$`):
+JBrowseR is implemented as an R package and distributed on CRAN.
+The package was built according to R best practices, leveraging the devtools package.
+The core rendering methods of the library rely on the htmlwidgets framework, which
+can be used to embed JavaScript visualization tools in R Shiny apps, as well as R
+Markdown documents. 
+Htmlwidgets can also can be used from an R interactive console.
+Using the reactR package, JBrowseR renders the JBrowse 2 widget inside of a root HTML
+element in an htmlwidget.
 
-$$
-\begin{aligned}
-(x+y)^3&=(x+y)(x+y)^2\\
-       &=(x+y)(x^2+2xy+y^2) \label{eqn:example} \\
-       &=x^3+3x^2y+3xy^3+x^3. 
-\end{aligned}
-$$
+The interface of JBrowseR enables users to generate JBrowse 2 configuration for their
+own data using simple R functions. 
+The configuration values can be composed together to create an arbitrarily complex 
+custom browser.
+The majority of major genomic data types displayed in genome browsers are supported.
+JBrowseR also includes a HTTP server for serving local data that is configured with
+the necessary settings and features for working with genome browsers such as JBrowse
+and IGV.js [@robinson2011integrative; @robinson2017variant].
 
-Describe the approach. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
+The source code for JBrowseR is hosted on GitHub, and is automatically tested using
+continuous integration running on the Windows, MacOS and Linux operating systems.
+Automated tests for the package are implemented using the testthat R package.
 
-<!--
-problems with longtable and 2-column format. see pnas_template and https://github.com/jgm/pandoc/issues/1023
-
-  Species                    CBS     CV     G3
-  ----------------------- ------ ------ ------
-  1\. Acetaldehyde           0.0    0.0    0.0
-  2\. Vinyl alcohol          9.1    9.6   13.5
-  3\. Hydroxyethylidene     50.8   51.2   54.0
-
-  : Comparison of the fitted potential energy surfaces and ab initio
-  benchmark electronic energy calculations
--->
-
-Describe the approach. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Describe the approach. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Describe the approach. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-```{r figure, echo = FALSE, fig.width = 3.5, fig.cap = 'Figure from an Rmd chunk.'}
-plot(rnorm(10000))
+```{r, echo=FALSE, out.width="100%", fig.cap="A custom JBrowse 2 genome browser generated using JBrowseR."}
+knitr::include_graphics("JBrowseR-paper-fig1.png")
 ```
 
-Methods
-============
-
-Detailed methods. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Detailed methods. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Detailed methods. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Sub-Method
--------------
-
-Details for Method 1. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Details for Method 1. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Details for Method 1. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Details for Method 1. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Method 2
--------------
-
-Details for Method 2. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Details for Method 2. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Details for Method 2. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Details for Method 2. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Discussion
+Results and discussion
 =============
 
-Discussion of results. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
+In order to demonstrate the utility of JBrowseR, several Shiny apps were built and included along
+with the package source code on GitHub. 
+One of the included apps demonstrates adding CRAM, VCF, GFF3, and bigWig data (fig. 1), as well as 
+setting a custom color palette for the browser.
+Another one of the provided demo apps illustrates how JBrowseR can also be configured with a JSON
+file like the other JBrowse 2 products by loading the Sars-CoV-2 reference genome and NCBI annotations
+from a JBrowse 2 configuration file.
+Finally, we have provided an example deployment of JBrowseR in an app with interactions connected to
+other R shiny UI components at 
+\href{https://elliothershberg.shinyapps.io/sars-cov-2-spike-mutations/}{https://elliothershberg.shinyapps.io/sars-cov-2-spike-mutations/}.
 
-Discussion of results. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
+One of the core strengths of JBrowseR is its versatility. 
+It considerably lowers the level of web development expertise required to create a genomics 
+application with a fast and flexible genome browser. 
+However, applications are not the only available target point for the rendering functions.
+JBrowseR can embed a genome browser into R Markdown, which is a flexible documentation format
+that is widely used to write scientific articles.
+We anticipate that as platforms such as eLife's "reproducible article" [@maciocci2019introducing] mature
+and become more widely adopted, it will be possible for genomics articles to contain interactive
+genome browsers such as JBrowseR displaying their data.
 
-Discussion of results. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Discussion of results. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Conclusion
+Availability
 =============
 
-Anything else? Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Anything else? Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Anything else? Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
-
-Anything else? Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum. Introduce your topic. Lorem ipsum ad nauseum.
+The JBrowseR is freely available for download from CRAN, and the source code is publicly available at
+\href{https://github.com/elliothershberg/JBrowseR/}{https://github.com/elliothershberg/JBrowseR/}. 
+The package reference guide and tutorials can be found at
+\href{https://elliothershberg.github.io/JBrowseR/}{https://elliothershberg.github.io/JBrowseR/}.
 
 Acknowledgements {.unnumbered}
 ==============
 
-These should be included at the end of the text and not in footnotes. Please ensure you acknowledge all sources of funding, see funding section below.
-
-Details of all funding sources for the work in question should be given in a separate section entitled 'Funding'. This should appear before the 'Acknowledgements' section.
+???
 
 Funding {.unnumbered}
 ==============
-The following rules should be followed:
 
-- The sentence should begin: ‘This work was supported by …’ -
-- The full official funding agency name should be given, i.e. ‘National Institutes of Health’, not ‘NIH’ (full RIN-approved list of UK funding agencies)
-- Grant numbers should be given in brackets as follows: ‘[grant number xxxx]’
-- Multiple grant numbers should be separated by a comma as follows: ‘[grant numbers xxxx, yyyy]’
-- Agencies should be separated by a semi-colon (plus ‘and’ before the last funding agency) 
-- Where individuals need to be specified for certain sources of funding the following text should be added after the relevant agency or grant number 'to [author initials]'.
+???
 
-An example is given here: ‘This work was supported by the National Institutes of Health [AA123456 to C.S., BB765432 to M.H.]; and the Alcohol & Education Research Council [hfygr667789].’
+<!-- The following rules should be followed: -->
 
-Oxford Journals will deposit all NIH-funded articles in PubMed Central. See Depositing articles in repositories – information for authors for details. Authors must ensure that manuscripts are clearly indicated as NIH-funded using the guidelines above.
+<!-- - The sentence should begin: ‘This work was supported by …’ - -->
+<!-- - The full official funding agency name should be given, i.e. ‘National Institutes of Health’, not ‘NIH’ (full RIN-approved list of UK funding agencies) -->
+<!-- - Grant numbers should be given in brackets as follows: ‘[grant number xxxx]’ -->
+<!-- - Multiple grant numbers should be separated by a comma as follows: ‘[grant numbers xxxx, yyyy]’ -->
+<!-- - Agencies should be separated by a semi-colon (plus ‘and’ before the last funding agency)  -->
+<!-- - Where individuals need to be specified for certain sources of funding the following text should be added after the relevant agency or grant number 'to [author initials]'. -->
+
+<!-- An example is given here: ‘This work was supported by the National Institutes of Health [AA123456 to C.S., BB765432 to M.H.]; and the Alcohol & Education Research Council [hfygr667789].’ -->
+
+<!-- Oxford Journals will deposit all NIH-funded articles in PubMed Central. See Depositing articles in repositories – information for authors for details. Authors must ensure that manuscripts are clearly indicated as NIH-funded using the guidelines above. -->
 

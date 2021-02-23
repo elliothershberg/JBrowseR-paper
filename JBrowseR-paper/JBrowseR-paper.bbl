@@ -36,9 +36,29 @@ Kent, W.~J., Sugnet, C.~W., Furey, T.~S., Roskin, K.~M., Pringle, T.~H.,
 \newblock The human genome browser at ucsc.
 \newblock {\em Genome research\/}, {\bf 12}(6), 996--1006.
 
+\bibitem[Maciocci {\em et~al.}(2019)Maciocci, Aufreiter, and
+  Bentley]{maciocci2019introducing}
+Maciocci, G., Aufreiter, M., and Bentley, N. (2019).
+\newblock Introducing elife’s first computationally reproducible article.
+\newblock {\em eLife Labs [Internet]\/}, {\bf 20}.
+
 \bibitem[Packer(2007)Packer]{packer2007clickable}
 Packer, A. (2007).
 \newblock The clickable genome.
 \newblock {\em Nature Reviews Genetics\/}, {\bf 8}(1), S17--S17.
+
+\bibitem[Robinson {\em et~al.}(2011)Robinson, Thorvaldsd{\'o}ttir, Winckler,
+  Guttman, Lander, Getz, and Mesirov]{robinson2011integrative}
+Robinson, J.~T., Thorvaldsd{\'o}ttir, H., Winckler, W., Guttman, M., Lander,
+  E.~S., Getz, G., and Mesirov, J.~P. (2011).
+\newblock Integrative genomics viewer.
+\newblock {\em Nature biotechnology\/}, {\bf 29}(1), 24--26.
+
+\bibitem[Robinson {\em et~al.}(2017)Robinson, Thorvaldsd{\'o}ttir, Wenger,
+  Zehir, and Mesirov]{robinson2017variant}
+Robinson, J.~T., Thorvaldsd{\'o}ttir, H., Wenger, A.~M., Zehir, A., and
+  Mesirov, J.~P. (2017).
+\newblock Variant review with the integrative genomics viewer.
+\newblock {\em Cancer research\/}, {\bf 77}(21), e31--e34.
 
 \end{thebibliography}
