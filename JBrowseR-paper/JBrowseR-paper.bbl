@@ -4,8 +4,8 @@
   Clarke, Coates, Cuff, Curwen, Cutts, {\em et~al.}]{birney2004overview}
 Birney, E., Andrews, T.~D., Bevan, P., Caccamo, M., Chen, Y., Clarke, L.,
   Coates, G., Cuff, J., Curwen, V., Cutts, T., {\em et~al.} (2004).
-\newblock An overview of ensembl.
-\newblock {\em Genome research\/}, {\bf 14}(5), 925--928.
+\newblock An overview of {E}nsembl.
+\newblock {\em Genome Research\/}, {\bf 14}(5), 925--928.
 
 \bibitem[Buels {\em et~al.}(2016)Buels, Yao, Diesh, Hayes, Munoz-Torres, Helt,
   Goodstein, Elsik, Lewis, Stein, {\em et~al.}]{buels2016jbrowse}
@@ -13,33 +13,33 @@ Buels, R., Yao, E., Diesh, C.~M., Hayes, R.~D., Munoz-Torres, M., Helt, G.,
   Goodstein, D.~M., Elsik, C.~G., Lewis, S.~E., Stein, L., {\em et~al.} (2016).
 \newblock Jbrowse: a dynamic web platform for genome visualization and
   analysis.
-\newblock {\em Genome biology\/}, {\bf 17}(1), 1--12.
+\newblock {\em Genome Biology\/}, {\bf 17}(1), 1--12.
 
 \bibitem[Harris {\em et~al.}(2010)Harris, Antoshechkin, Bieri, Blasiar, Chan,
   Chen, De~La~Cruz, Davis, Duesbury, Fang, {\em et~al.}]{harris2010wormbase}
 Harris, T.~W., Antoshechkin, I., Bieri, T., Blasiar, D., Chan, J., Chen, W.~J.,
   De~La~Cruz, N., Davis, P., Duesbury, M., Fang, R., {\em et~al.} (2010).
-\newblock Wormbase: a comprehensive resource for nematode research.
-\newblock {\em Nucleic acids research\/}, {\bf 38}(suppl\_1), D463--D467.
+\newblock {W}orm{B}ase: a comprehensive resource for nematode research.
+\newblock {\em Nucleic Acids Research\/}, {\bf 38}(suppl\_1), D463--D467.
 
 \bibitem[Huber {\em et~al.}(2015)Huber, Carey, Gentleman, Anders, Carlson,
   Carvalho, Bravo, Davis, Gatto, Girke, {\em et~al.}]{huber2015orchestrating}
 Huber, W., Carey, V.~J., Gentleman, R., Anders, S., Carlson, M., Carvalho,
   B.~S., Bravo, H.~C., Davis, S., Gatto, L., Girke, T., {\em et~al.} (2015).
-\newblock Orchestrating high-throughput genomic analysis with bioconductor.
-\newblock {\em Nature methods\/}, {\bf 12}(2), 115.
+\newblock Orchestrating high-throughput genomic analysis with {B}ioconductor.
+\newblock {\em Nature Methods\/}, {\bf 12}(2), 115.
 
 \bibitem[Kent {\em et~al.}(2002)Kent, Sugnet, Furey, Roskin, Pringle, Zahler,
   and Haussler]{kent2002human}
 Kent, W.~J., Sugnet, C.~W., Furey, T.~S., Roskin, K.~M., Pringle, T.~H.,
   Zahler, A.~M., and Haussler, D. (2002).
-\newblock The human genome browser at ucsc.
-\newblock {\em Genome research\/}, {\bf 12}(6), 996--1006.
+\newblock The human genome browser at {UCSC}.
+\newblock {\em Genome Research\/}, {\bf 12}(6), 996--1006.
 
 \bibitem[Maciocci {\em et~al.}(2019)Maciocci, Aufreiter, and
   Bentley]{maciocci2019introducing}
 Maciocci, G., Aufreiter, M., and Bentley, N. (2019).
-\newblock Introducing elife’s first computationally reproducible article.
+\newblock Introducing e{L}ife’s first computationally reproducible article.
 \newblock {\em eLife Labs [Internet]\/}, {\bf 20}.
 
 \bibitem[Packer(2007)Packer]{packer2007clickable}
@@ -52,13 +52,13 @@ Packer, A. (2007).
 Robinson, J.~T., Thorvaldsd{\'o}ttir, H., Winckler, W., Guttman, M., Lander,
   E.~S., Getz, G., and Mesirov, J.~P. (2011).
 \newblock Integrative genomics viewer.
-\newblock {\em Nature biotechnology\/}, {\bf 29}(1), 24--26.
+\newblock {\em Nature Biotechnology\/}, {\bf 29}(1), 24--26.
 
 \bibitem[Robinson {\em et~al.}(2017)Robinson, Thorvaldsd{\'o}ttir, Wenger,
   Zehir, and Mesirov]{robinson2017variant}
 Robinson, J.~T., Thorvaldsd{\'o}ttir, H., Wenger, A.~M., Zehir, A., and
   Mesirov, J.~P. (2017).
 \newblock Variant review with the integrative genomics viewer.
-\newblock {\em Cancer research\/}, {\bf 77}(21), e31--e34.
+\newblock {\em Cancer Research\/}, {\bf 77}(21), e31--e34.
 
 \end{thebibliography}
