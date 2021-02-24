@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.23)  23 FEB 2021 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.23)  23 FEB 2021 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,7 +402,7 @@ Package crop Info: requested driver: `' on input line 20.
 Package crop Info: detected driver: `pdftex' on input line 20.
 Package crop Info: using `pdftex' graphics driver on input line 20.
 LaTeX Font Info:    Trying to load font information for LY1+phv on input line 7
-0.
+1.
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/ly1/ly1phv.fd
 File: ly1phv.fd 2001/02/01 scalable font definitions for LY1/phv using Berry na
 mes.
@@ -436,43 +436,43 @@ f>
 (epstopdf)                    size: 9231 bytes
 (epstopdf)             Command: <repstopdf --outfile=OUP_First_SBk_Bot_8401-eps
 -converted-to.pdf OUP_First_SBk_Bot_8401.eps>
-(epstopdf)             \includegraphics on input line 70.
+(epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 <OUP_First_SBk_Bot_8401-eps-converted-to.pdf, id=1, 54.2025pt x 54.2025pt>
 File: OUP_First_SBk_Bot_8401-eps-converted-to.pdf Graphic file (type pdf)
 <use OUP_First_SBk_Bot_8401-eps-converted-to.pdf>
 Package pdftex.def Info: OUP_First_SBk_Bot_8401-eps-converted-to.pdf  used on i
-nput line 70.
+nput line 71.
 (pdftex.def)             Requested size: 54.20236pt x 54.20236pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
 
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
 
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 70.
+(Font)              size <6> substituted on input line 71.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 70.
+(Font)              size <6> substituted on input line 71.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 70.
+(Font)              size <6> substituted on input line 71.
 
 
-Underfull \hbox (badness 10000) detected at line 70
+Underfull \hbox (badness 10000) detected at line 71
 []
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 82--91
+Underfull \hbox (badness 1253) in paragraph at lines 83--92
 []\LY1/ptm/m/n/8 Since their original development during the advent of genome
  []
 
@@ -493,29 +493,34 @@ tex.map}
 
 
  <./OUP_First_SBk_Bot_8401-eps-converted-to.pdf>]
-Underfull \hbox (badness 1484) in paragraph at lines 128--138
+Underfull \hbox (badness 1484) in paragraph at lines 129--139
 []\LY1/ptm/m/n/8 The interface of JBrowseR enables users to generate JBrowse
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 139--143
+Underfull \hbox (badness 1681) in paragraph at lines 140--144
 []\LY1/ptm/m/n/8 The source code for JBrowseR is hosted on GitHub, and is
  []
 
 <JBrowseR-paper-fig1.png, id=17, 465.74pt x 517.935pt>
 File: JBrowseR-paper-fig1.png Graphic file (type png)
 <use JBrowseR-paper-fig1.png>
-Package pdftex.def Info: JBrowseR-paper-fig1.png  used on input line 145.
+Package pdftex.def Info: JBrowseR-paper-fig1.png  used on input line 146.
 (pdftex.def)             Requested size: 234.0pt x 260.22343pt.
 LaTeX Font Info:    Trying to load font information for LY1+phb on input line 1
-45.
-LaTeX Font Info:    No file LY1phb.fd. on input line 145.
+46.
+LaTeX Font Info:    No file LY1phb.fd. on input line 146.
 
 LaTeX Font Warning: Font shape `LY1/phb/m/n' undefined
-(Font)              using `LY1/ptm/m/n' instead on input line 145.
+(Font)              using `LY1/ptm/m/n' instead on input line 146.
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 176--181
+Underfull \hbox (badness 1596) in paragraph at lines 177--182
+\LY1/ptm/m/n/8 JBrowseR is freely available for download from CRAN, and the
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 177--182
 \LY1/ptm/m/n/8 The package reference guide and tutorials can be found at
  []
 
@@ -567,7 +572,7 @@ s/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on JBrowseR-paper.pdf (3 pages, 188374 bytes).
+Output written on JBrowseR-paper.pdf (3 pages, 188543 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
