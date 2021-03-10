@@ -109,7 +109,7 @@ with the package source code on GitHub.
 One of the included apps demonstrates adding CRAM, VCF, GFF3, and bigWig data (fig. 1), as well as 
 setting a custom color palette for the browser.
 Another one of the provided demo apps illustrates how JBrowseR can also be configured with a JSON
-file (like other JBrowse 2 apps) by loading the Sars-CoV-2 reference genome and NCBI annotations
+file (like other JBrowse 2 apps) by loading the SARS-CoV-2 reference genome and NCBI annotations
 from a JBrowse 2 configuration file.
 Finally, we have provided an example deployment of JBrowseR in an app with interactions connected to
 other R shiny UI components at 
