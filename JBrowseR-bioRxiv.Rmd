@@ -65,7 +65,7 @@ linear genome browser, enabling researchers to embed custom browsers into existi
 While the JBrowse 2 React linear genome view component is powerful and extensible, its use can
 present an obstacle to bioinformaticians who don't have experience with React development.
 On the other hand, the R programming language and environment is widely used in the bioinformatics community, 
-as evidenced by the size and and usage of efforts such as Bioconductor [@huber2015orchestrating].
+as evidenced by the size and usage of efforts such as Bioconductor [@huber2015orchestrating].
 
 To bridge this gap, we introduce JBrowseR, an R interface the JBrowse 2 genome browser. 
 JBrowseR is an R package with functions for embedding a custom browser instance in a Shiny app, 

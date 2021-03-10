@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.23)  23 FEB 2021 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.5)  10 MAR 2021 08:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -364,7 +364,7 @@ LaTeX Info: Redefining \cite on input line 694.
 ))
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
-File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count274
 \l__pdf_internal_box=\box58
 ) (./JBrowseR-paper.aux)
@@ -554,8 +554,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  3919 strings out of 480971
- 52473 string characters out of 5906261
- 357283 words of memory out of 5000000
+ 52473 string characters out of 5906262
+ 357282 words of memory out of 5000000
  21052 multiletter control sequences out of 15000+600000
  440853 words of font info for 89 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
@@ -572,7 +572,7 @@ s/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on JBrowseR-paper.pdf (3 pages, 188543 bytes).
+Output written on JBrowseR-paper.pdf (3 pages, 188534 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
