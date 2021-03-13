@@ -1,0 +1,29 @@
+---
+author:
+- Ian Holmes
+opening: To the editorial staff at Bioinformatics,
+closing: Sincerely,
+return-address: 
+- Ian Holmes
+- Professor
+- Department of Bioengineering
+- 381 Stanley Hall 
+- University of California, Berkeley
+- Berkeley, CA
+output: linl::linl
+---
+
+We respectfully submit our manuscript, **"JBrowseR: An R Interface to the JBrowse 2 Genome Browser"** by Hershberg,
+Stevens, Diesh, Xie, De Jesus Martinez, Buels, Stein, and Holmes.
+
+We are requesting your consideration for publication as an Application Note.
+We believe that JBrowseR constitutes a meaningful advance in genome analysis by providing a native
+R interface to a highly performant and extensible genome browser.
+This makes it possible, for the first time, to render a genome browser directly into an R graphics context,
+such as a Shiny app, an R Markdown document, or an interactive console.
+
+We anticipate considerable option, given the widespread use of the R language in the bioinformatics community,
+and the fact that JBrowseR has already been downloaded over 200 times after less than a month on CRAN.
+Based on the scope and broad impact of Bioinformatics, we view the journal as a natural home for our manuscript
+describing JBrowseR.
+
