@@ -122,7 +122,7 @@ continuous integration running on the Windows, MacOS and Linux operating systems
 Automated tests for the package are implemented using the testthat R package.
 
 ```{r, echo=FALSE, out.width="100%", fig.cap="A custom JBrowse 2 genome browser generated using JBrowseR."}
-knitr::include_graphics("JBrowseR-paper-fig1.png")
+knitr::include_graphics("JBrowseR-paper-fig1.eps")
 ```
 
 Results and Discussion
