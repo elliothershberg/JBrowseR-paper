@@ -75,23 +75,30 @@ Leveraging JavaScript---along with modern web technologies such as Canvas and SV
 place on a server into the client web browser, as well as offering a more responsive and
 interactive experience to the user.
 
-JBrowse 2 is an extensible platform for visualizing and integrating biological data,
-consisting of a ground-up rewrite of JBrowse using ReactJS and TypeScript.
-The platform can be configured and deployed with custom data and settings,
-enabling research communities to develop and maintain curated sets of resources and data on 
-the web, such as WormBase for the *C. elegans* community [@harris2010wormbase].
-
+\textcolor{red}{
+We have recently released JBrowse 2, which is an extensible platform for visualizing 
+and integrating biological data, consisting of a ground-up rewrite of JBrowse using ReactJS and TypeScript.
 JBrowse 2 contains many new views and components, to be described in a later paper.
 However, one core part is a React component that renders a configurable
 linear genome browser, enabling researchers to embed custom browsers into existing React applications.
 While the JBrowse 2 React linear genome view component is powerful and extensible, its use can
-present an obstacle to bioinformaticians who don't have experience with React development.
-On the other hand, the R programming language and environment is widely used in the bioinformatics community, 
-as evidenced by the size and usage of efforts such as Bioconductor [@huber2015orchestrating].
+present an obstacle to bioinformaticians who don't have experience with React development.}
 
-To bridge this gap, we introduce JBrowseR, an R interface the JBrowse 2 genome browser. 
+\textcolor{red}{
+In contrast to React and JavaScript, the R programming language and environment is widely used in the 
+bioinformatics community. R also has a strong history of tools for interacting with genome browsers,
+such as the rtracklayer} [@lawrence2009rtracklayer] \textcolor{red}{package for interacting with the 
+UCSC genome browser, igvR for accessing igv.js} [@robinson2011integrative; @robinson2017variant], 
+\textcolor{red}{and epivizr for manipulating epiviz} [@chelaru2014epiviz].
+
+\textcolor{red}{
+Although these tools exist for interacting with genome browsers from R, they share the architecture of
+provide a communication channel between an app in the browser and an R environment. It is not possible
+to use these packages to render visualizations in popular new tools such as R Shiny apps or R Markdown
+documents. In order to provide a novel tool and make JBrowse 2 accessible to the R community, we
+introduce JBrowseR: an R interface the JBrowse 2 genome browser. 
 JBrowseR is an R package with functions for embedding a custom browser instance in a Shiny app, 
-R Markdown document, or the R console.
+R Markdown document, or the R console.}
 
 Materials and Methods
 ============
@@ -116,6 +123,14 @@ including (but not limited to) FASTA, BED, GFF3, BAM, CRAM, VCF, Wiggle, and big
 JBrowseR also includes an HTTP server for serving local data that is configured with
 the necessary settings and features for working with genome browsers such as JBrowse
 and IGV.js [@robinson2011integrative; @robinson2017variant].
+
+\textcolor{red}{
+In addition to loading data from bioinformatics files, users can create tracks from
+R data frames. This provides an interface for users to generate computational results
+in R and pass them directly to the browser. When used in Shiny, JBrowseR can also send
+messages back to the app, enabling powerful integration with downstream processes. 
+We provide an example app using this feature to create a data frame of bookmarked 
+features from the browser.}
 
 The source code for JBrowseR is hosted on GitHub, and is automatically tested using
 continuous integration running on the Windows, MacOS and Linux operating systems.
@@ -151,8 +166,6 @@ genome browsers such as JBrowseR displaying their data.
 
 Availability
 =============
-
-<!-- % Can you please move the repo to the GMOD GitHub org and update the URLs? -->
 
 JBrowseR is freely available for download from CRAN, and the source code is publicly available at
 \href{https://github.com/GMOD/JBrowseR/}{https://github.com/GMOD/JBrowseR/}. 

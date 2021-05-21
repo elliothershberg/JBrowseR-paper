@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.5)  21 MAY 2021 07:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.5)  21 MAY 2021 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -493,40 +493,43 @@ tex.map}
 
 
  <./OUP_First_SBk_Bot_8401-eps-converted-to.pdf>]
-Underfull \hbox (badness 1484) in paragraph at lines 129--139
+Underfull \hbox (badness 1484) in paragraph at lines 134--144
 []\LY1/ptm/m/n/8 The interface of JBrowseR enables users to generate JBrowse
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 140--144
+Underfull \hbox (badness 1681) in paragraph at lines 153--157
 []\LY1/ptm/m/n/8 The source code for JBrowseR is hosted on GitHub, and is
  []
 
 <JBrowseR-paper-fig1.png, id=17, 465.74pt x 517.935pt>
 File: JBrowseR-paper-fig1.png Graphic file (type png)
 <use JBrowseR-paper-fig1.png>
-Package pdftex.def Info: JBrowseR-paper-fig1.png  used on input line 146.
+Package pdftex.def Info: JBrowseR-paper-fig1.png  used on input line 159.
 (pdftex.def)             Requested size: 234.0pt x 260.22343pt.
 LaTeX Font Info:    Trying to load font information for LY1+phb on input line 1
-46.
-LaTeX Font Info:    No file LY1phb.fd. on input line 146.
+59.
+LaTeX Font Info:    No file LY1phb.fd. on input line 159.
 
 LaTeX Font Warning: Font shape `LY1/phb/m/n' undefined
-(Font)              using `LY1/ptm/m/n' instead on input line 146.
+(Font)              using `LY1/ptm/m/n' instead on input line 159.
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 177--182
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 190--195
 \LY1/ptm/m/n/8 JBrowseR is freely available for download from CRAN, and the
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 177--182
+Underfull \hbox (badness 7667) in paragraph at lines 190--195
 \LY1/ptm/m/n/8 The package reference guide and tutorials can be found at
  []
 
 (./JBrowseR-paper.bbl
 LaTeX Font Info:    Font shape `LY1/phv/m/it' in size <8> not available
-(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 63.
+(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 43.
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
 [][] 
@@ -534,10 +537,10 @@ Overfull \hbox (252.0pt too wide) has occurred while \output is active
 
 [2 <./JBrowseR-paper-fig1.png>])
 - LAST -
-Extra skip:11.312pt
-Left:21.0pt/1.736pt
-Right:10.0pt/1.424pt
-Output:16.0pt
+Extra skip:22.312pt
+Left:65.0pt/1.736pt
+Right:43.0pt/1.424pt
+Output:65.5pt
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
 [][] 
@@ -555,11 +558,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  3919 strings out of 480971
  52473 string characters out of 5906262
- 357282 words of memory out of 5000000
+ 355170 words of memory out of 5000000
  21052 multiletter control sequences out of 15000+600000
  440853 words of font info for 89 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
- 84i,10n,88p,275b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,10n,88p,275b,288s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/enc/dvips/ly1/texnan
 si.enc}</Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/public/am
 sfonts/latxfont/lcircle1.pfb></Users/elliothershberg/Library/TinyTeX/texmf-dist
@@ -572,7 +575,7 @@ s/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on JBrowseR-paper.pdf (3 pages, 188537 bytes).
+Output written on JBrowseR-paper.pdf (3 pages, 188568 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
