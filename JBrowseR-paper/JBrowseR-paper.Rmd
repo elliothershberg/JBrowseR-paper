@@ -21,7 +21,7 @@ author:
     affiliation: "1"
   - name: Teresa De Jesus Martinez
     affiliation: "1"
-  - name: Rob Buels
+  - name: Robert Buels
     affiliation: "1"
   - name: Lincoln Stein
     affiliation: "2"

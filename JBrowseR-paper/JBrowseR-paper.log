@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.5)  21 MAY 2021 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.5)  26 MAY 2021 07:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,7 +558,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  3919 strings out of 480971
  52473 string characters out of 5906262
- 355170 words of memory out of 5000000
+ 355169 words of memory out of 5000000
  21052 multiletter control sequences out of 15000+600000
  440853 words of font info for 89 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
@@ -575,7 +575,7 @@ s/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on JBrowseR-paper.pdf (3 pages, 188580 bytes).
+Output written on JBrowseR-paper.pdf (3 pages, 188575 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
