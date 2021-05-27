@@ -11,7 +11,7 @@ access_date:
     year: YY
       
 author:
-  - name: Elliot Hershberg
+  - name: Elliot A. Hershberg
     affiliation: "1"
   - name: Garrett Stevens
     affiliation: "1"
