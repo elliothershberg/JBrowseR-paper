@@ -15,19 +15,11 @@ Buels, R., Yao, E., Diesh, C.~M., Hayes, R.~D., Munoz-Torres, M., Helt, G.,
   analysis.
 \newblock {\em Genome Biology\/}, {\bf 17}(1), 1--12.
 
-\bibitem[Harris {\em et~al.}(2010)Harris, Antoshechkin, Bieri, Blasiar, Chan,
-  Chen, De~La~Cruz, Davis, Duesbury, Fang, {\em et~al.}]{harris2010wormbase}
-Harris, T.~W., Antoshechkin, I., Bieri, T., Blasiar, D., Chan, J., Chen, W.~J.,
-  De~La~Cruz, N., Davis, P., Duesbury, M., Fang, R., {\em et~al.} (2010).
-\newblock {W}orm{B}ase: a comprehensive resource for nematode research.
-\newblock {\em Nucleic Acids Research\/}, {\bf 38}(suppl\_1), D463--D467.
-
-\bibitem[Huber {\em et~al.}(2015)Huber, Carey, Gentleman, Anders, Carlson,
-  Carvalho, Bravo, Davis, Gatto, Girke, {\em et~al.}]{huber2015orchestrating}
-Huber, W., Carey, V.~J., Gentleman, R., Anders, S., Carlson, M., Carvalho,
-  B.~S., Bravo, H.~C., Davis, S., Gatto, L., Girke, T., {\em et~al.} (2015).
-\newblock Orchestrating high-throughput genomic analysis with {B}ioconductor.
-\newblock {\em Nature Methods\/}, {\bf 12}(2), 115.
+\bibitem[Chelaru {\em et~al.}(2014)Chelaru, Smith, Goldstein, and
+  Bravo]{chelaru2014epiviz}
+Chelaru, F., Smith, L., Goldstein, N., and Bravo, H.~C. (2014).
+\newblock Epiviz: interactive visual analytics for functional genomics data.
+\newblock {\em Nature methods\/}, {\bf 11}(9), 938--940.
 
 \bibitem[Kent {\em et~al.}(2002)Kent, Sugnet, Furey, Roskin, Pringle, Zahler,
   and Haussler]{kent2002human}
@@ -35,6 +27,12 @@ Kent, W.~J., Sugnet, C.~W., Furey, T.~S., Roskin, K.~M., Pringle, T.~H.,
   Zahler, A.~M., and Haussler, D. (2002).
 \newblock The human genome browser at {UCSC}.
 \newblock {\em Genome Research\/}, {\bf 12}(6), 996--1006.
+
+\bibitem[Lawrence {\em et~al.}(2009)Lawrence, Gentleman, and
+  Carey]{lawrence2009rtracklayer}
+Lawrence, M., Gentleman, R., and Carey, V. (2009).
+\newblock rtracklayer: an r package for interfacing with genome browsers.
+\newblock {\em Bioinformatics\/}, {\bf 25}(14), 1841--1842.
 
 \bibitem[Maciocci {\em et~al.}(2019)Maciocci, Aufreiter, and
   Bentley]{maciocci2019introducing}
