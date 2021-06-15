@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.5)  27 MAY 2021 10:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.5)  15 JUN 2021 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -17,6 +17,7 @@ Package: crop 2017/11/19 1.10 crop marks (mf)
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.s
 ty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
@@ -40,6 +41,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.
 sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
@@ -70,6 +72,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 y
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip47
+
 For additional information on amsmath, use the `?' option.
 
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.st
@@ -181,8 +184,8 @@ Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
 ings
 \@dblbotnum=\count196
 \c@dblbotnumber=\count197
-) (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.st
-y
+)
+(/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks26
 \thm@bodyfont=\toks27
@@ -199,14 +202,18 @@ e.sty
 Package: chngpage 2009/10/20 v1.2b change page layout
 \c@cp@cnt=\count198
 \c@cp@tempcnt=\count199
-) (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/psnfss/times.sty
+)
+(/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
-) (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+)
+(/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/ly1/ly1enc.def
 File: ly1enc.def 2009/07/22 v0.7 TeX 'n ANSI encoding (DPC/KB)
 Now handling font encoding LY1 ...
 ... processing UTF-8 mapping file for font encoding LY1
+
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/base/ly1enc.dfu
 File: ly1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
@@ -337,6 +344,7 @@ File: ly1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
 ))
 LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
 12.
+
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 ))
@@ -355,6 +363,7 @@ File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 \rotdimen=\dimen158
 \tempdime=\dimen159
 \temptbox=\box57
+
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip63
@@ -403,9 +412,11 @@ Package crop Info: detected driver: `pdftex' on input line 20.
 Package crop Info: using `pdftex' graphics driver on input line 20.
 LaTeX Font Info:    Trying to load font information for LY1+phv on input line 7
 1.
+
 (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/ly1/ly1phv.fd
 File: ly1phv.fd 2001/02/01 scalable font definitions for LY1/phv using Berry na
 mes.
+
 
 LaTeX Warning: Font shape declaration has incorrect series value `mc'.
                It should not contain an `m'! Please correct it.
@@ -446,12 +457,12 @@ nput line 71.
 (pdftex.def)             Requested size: 54.20236pt x 54.20236pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
 
-(/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
 
-(/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/Users/elliothershberg/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
@@ -575,7 +586,7 @@ s/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></Users/elliothershberg/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on JBrowseR-paper.pdf (3 pages, 188559 bytes).
+Output written on JBrowseR-paper.pdf (3 pages, 188323 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
